@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,7 +19,6 @@ public class EnemySpawner : MonoBehaviour
     {
         while (true)
         {
-            _spawnTime = 5f;
 
             yield return new WaitForSeconds(_spawnTime);
             GameObject _enemy = _enemies[UnityEngine.Random.Range(0, _enemies.Count)];

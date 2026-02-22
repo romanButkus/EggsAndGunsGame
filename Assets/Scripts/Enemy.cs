@@ -22,13 +22,13 @@ public class Enemy : MonoBehaviour
 
 	void Update()
     {
-        transform.LookAt(_target);
+        Vector2 _direction = (_target.transform.position - transform.position).normalized;
 
         float _distance = Vector3.Distance(transform.position, _target.position);
 
         if (_distance > _minDist)
         {
-            transform.position += transform.forward * _speed * Time.deltaTime;
+            transform.position += (Vector3)_direction * _speed * Time.deltaTime;
         }
 
         float _playerPositionX = _player.transform.position.x;
@@ -44,11 +44,4 @@ public class Enemy : MonoBehaviour
         }
 	}
 
-    void OnTriggerEnter2D(Collider2D _collision)
-    {
-        if (_collision.transform.tag == "Player")
-        {
-            _player._hp -= 1;
-        }
-    }
 }

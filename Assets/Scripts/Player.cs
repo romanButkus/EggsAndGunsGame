@@ -1,10 +1,7 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] public float _hp;
-    void Start()
-    {
-        _hp = 10f;
-    }
+    [SerializeField] public Slider _hp;
 }
