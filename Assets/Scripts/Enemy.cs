@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     private Transform _target;
 
     [SerializeField] private float _speed = 2f;
-    private float _minDist = 1f;
+    private float _minDist = 0.5f;
 
     void Awake()
     {
@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
         _target = _player.transform;
 	}
 
-	void Update()
+    void Update()
     {
         Vector2 _direction = (_target.transform.position - transform.position).normalized;
 
@@ -42,6 +42,20 @@ public class Enemy : MonoBehaviour
         {
             _sr.flipX = true;
         }
-	}
+    }
 
+	void OnTriggerEnter2D(Collider2D collision)
+	{
+		if(collision.tag == "Player")
+        {
+            if (_player._hp == 0)
+            {
+                _speed = 0;
+            }
+            else
+            {
+                _player.TakeDamage();
+            }
+        }
+	}
 }
