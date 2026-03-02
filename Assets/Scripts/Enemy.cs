@@ -5,14 +5,18 @@ public class Enemy : MonoBehaviour
     private Player _player;
     private SpriteRenderer _sr;
     private Transform _target;
+    public int _enemyHP = 1;
 
-    [SerializeField] private float _speed = 2f;
+    private LevelCount _levelCount;
+
+    public float _speed = 2f;
     private float _minDist = 0.5f;
 
     void Awake()
     {
         _sr = GetComponent<SpriteRenderer>();
         _player = FindFirstObjectByType<Player>();
+        _levelCount = FindFirstObjectByType<LevelCount>();
     }
 
 	void Start()
@@ -44,9 +48,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-	void OnTriggerEnter2D(Collider2D collision)
-	{
-		if(collision.tag == "Player")
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
         {
             if (_player._hp == 0)
             {
@@ -57,5 +61,17 @@ public class Enemy : MonoBehaviour
                 _player.TakeDamage();
             }
         }
-	}
+    }
+    
+    public void TakeDamage(int _damage)
+    {
+        _enemyHP -= _damage;
+
+        if(_enemyHP <= 0)
+        {
+            _levelCount._killedEnemies += 1;
+            _player._maxHp += 0.1f;
+            Destroy(gameObject);
+        }
+    }
 }

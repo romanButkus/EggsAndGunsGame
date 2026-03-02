@@ -58,13 +58,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 546, y: 270, z: 549, w: 217}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -112,111 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 17.2.2026 klo 14.28.57_0
+      name: Egg_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 1513
-        height: 1024
+        x: 549
+        y: 265
+        width: 439
+        height: 542
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b54397057e406dbd0800000000000000
-      internalID: -2605889942853176229
+      spriteID: cbdd101e6d347cc45b8b73b894845bfb
+      internalID: -1069293006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17.2.2026 klo 14.28.57_1
+      name: Egg_1
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 547
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08fdb9a31277cb458b489e72b318e22
+      internalID: 1257070243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_2
       rect:
         serializedVersion: 2
         x: 995
-        y: 546
-        width: 6
+        y: 449
+        width: 4
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fed3879e54b0545c0800000000000000
-      internalID: -4231963879947092497
+      spriteID: 3872498fc43956e4fbe079701e6982f1
+      internalID: 1935573745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17.2.2026 klo 14.28.57_2
+      name: Egg_3
       rect:
         serializedVersion: 2
-        x: 994
-        y: 448
-        width: 6
-        height: 8
+        x: 995
+        y: 441
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 08011dbf9b5a34db0800000000000000
-      internalID: -4808817758889242496
+      spriteID: fa5a8480d4140de4d996eb1d809f829a
+      internalID: 1740208839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17.2.2026 klo 14.28.57_3
+      name: Egg_4
       rect:
         serializedVersion: 2
-        x: 994
-        y: 440
-        width: 6
-        height: 6
+        x: 995
+        y: 201
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d0b2264dc958fb10800000000000000
-      internalID: 2015459571428143313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChatGPT Image 17.2.2026 klo 14.28.57_4
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 200
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31559dde2277eadd0800000000000000
-      internalID: -2472908153476786925
+      spriteID: 3f91f7a34c3708d44a6eff227ceeebd1
+      internalID: -1605970192
       vertices: []
       indices: 
       edges: []
@@ -226,20 +226,22 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      ChatGPT Image 17.2.2026 klo 14.28.57_0: -2605889942853176229
-      ChatGPT Image 17.2.2026 klo 14.28.57_1: -4231963879947092497
-      ChatGPT Image 17.2.2026 klo 14.28.57_2: -4808817758889242496
-      ChatGPT Image 17.2.2026 klo 14.28.57_3: 2015459571428143313
-      ChatGPT Image 17.2.2026 klo 14.28.57_4: -2472908153476786925
+      Egg_0: -1069293006
+      Egg_1: 1257070243
+      Egg_2: 1935573745
+      Egg_3: 1740208839
+      Egg_4: -1605970192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

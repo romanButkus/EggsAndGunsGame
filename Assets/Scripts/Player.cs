@@ -7,15 +7,19 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Slider _hpBar;
-    [SerializeField] public int _hp;
+    public int _hp = 10;
+    public float _maxHp;
     private Animator _animator;
     [SerializeField] private GameObject _deadPanel;
     [SerializeField] private GameObject _pauseButton;
     [SerializeField] private TextMeshProUGUI _hpCount;
     [SerializeField] private GameObject _egg;
+    [SerializeField] private float _shootCoolDown;
+
 
     void Awake()
     {
+        _hp += Convert.ToInt32(_maxHp);
         _animator = GetComponent<Animator>();
     }
 
@@ -51,10 +55,5 @@ public class Player : MonoBehaviour
         Time.timeScale = 0;
         _deadPanel.SetActive(true);
         _pauseButton.SetActive(false);
-    }
-    
-    void Shoot()
-    {
-        
     }
 }

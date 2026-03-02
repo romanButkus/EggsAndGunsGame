@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: fb43b133b19d39c48aa4e98aed63727c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8943685536470961180
+    second: lvlCompTxt_0
+  - first:
+      213: -1590248304984760904
+    second: lvlCompTxt_1
+  - first:
+      213: 2921856408425288110
+    second: lvlCompTxt_2
+  - first:
+      213: -6785402960587137587
+    second: lvlCompTxt_3
+  - first:
+      213: -9105969844495090154
+    second: lvlCompTxt_4
+  - first:
+      213: 7672161188974249126
+    second: lvlCompTxt_5
+  - first:
+      213: -5877707171354190151
+    second: lvlCompTxt_6
+  - first:
+      213: -1249155262958095531
+    second: lvlCompTxt_7
+  - first:
+      213: -4899410766861889606
+    second: lvlCompTxt_8
+  - first:
+      213: 4827588292152745903
+    second: lvlCompTxt_9
+  - first:
+      213: 7691227450242155729
+    second: lvlCompTxt_10
+  - first:
+      213: 1699449507706676218
+    second: lvlCompTxt_11
+  - first:
+      213: -8260340405721260060
+    second: lvlCompTxt_12
+  - first:
+      213: -666145328144658139
+    second: lvlCompTxt_13
+  - first:
+      213: 7524217074006830642
+    second: lvlCompTxt_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lvlCompTxt_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 29
+        width: 126
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e379d7e365a1e380800000000000000
+      internalID: -8943685536470961180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 29
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd57b4979d4ee9e0800000000000000
+      internalID: -1590248304984760904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 29
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea153ec3ce48c8820800000000000000
+      internalID: 2921856408425288110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 30
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdd15c35f765d1a0800000000000000
+      internalID: -6785402960587137587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 30
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e73730ca811a180800000000000000
+      internalID: -9105969844495090154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_5
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 29
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a44958d3fdf87a60800000000000000
+      internalID: 7672161188974249126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 29
+        width: 110
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bedaa518703e6ea0800000000000000
+      internalID: -5877707171354190151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 72
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553b21a18eb1aaee0800000000000000
+      internalID: -1249155262958095531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_8
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 29
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf0970addbc10cb0800000000000000
+      internalID: -4899410766861889606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_9
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 29
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf599b59f90ff240800000000000000
+      internalID: 4827588292152745903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_10
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 29
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4ca6abd9abcba60800000000000000
+      internalID: 7691227450242155729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_11
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 29
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3a19cb258a59710800000000000000
+      internalID: 1699449507706676218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_12
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 29
+        width: 72
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef9d298a206d5d80800000000000000
+      internalID: -8260340405721260060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_13
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 58
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521d62b7a5061c6f0800000000000000
+      internalID: -666145328144658139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvlCompTxt_14
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 29
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e2b1550936b6860800000000000000
+      internalID: 7524217074006830642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lvlCompTxt_0: -8943685536470961180
+      lvlCompTxt_1: -1590248304984760904
+      lvlCompTxt_10: 7691227450242155729
+      lvlCompTxt_11: 1699449507706676218
+      lvlCompTxt_12: -8260340405721260060
+      lvlCompTxt_13: -666145328144658139
+      lvlCompTxt_14: 7524217074006830642
+      lvlCompTxt_2: 2921856408425288110
+      lvlCompTxt_3: -6785402960587137587
+      lvlCompTxt_4: -9105969844495090154
+      lvlCompTxt_5: 7672161188974249126
+      lvlCompTxt_6: -5877707171354190151
+      lvlCompTxt_7: -1249155262958095531
+      lvlCompTxt_8: -4899410766861889606
+      lvlCompTxt_9: 4827588292152745903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
