@@ -12,6 +12,9 @@ public class Enemy : MonoBehaviour
     public float _speed = 2f;
     private float _minDist = 0.5f;
 
+    public static int _bonusHP = 0;
+    public static float _bonusSpeed = 0f;
+
     void Awake()
     {
         _sr = GetComponent<SpriteRenderer>();
@@ -22,6 +25,8 @@ public class Enemy : MonoBehaviour
 	void Start()
 	{
         _target = _player.transform;
+        _enemyHP += _bonusHP;
+        _speed += _bonusSpeed;
 	}
 
     void Update()

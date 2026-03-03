@@ -5,12 +5,15 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _enemies;
-    public float _spawnTime = 0.1f;
+    private float _spawnTime = 3.5f;
+
+    public static float _bonusSpawnTime;
 
     [SerializeField] private Transform _player;
 
     void Start()
     {
+        _spawnTime += _bonusSpawnTime;
         StartCoroutine(SpawnEnemy());
     }
 

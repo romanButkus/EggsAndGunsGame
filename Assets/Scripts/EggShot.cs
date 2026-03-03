@@ -5,8 +5,11 @@ public class EggShot : MonoBehaviour
     public float _speed = 15f;
     public float _lifeTime = 2f;
 
+    public static float _bonusSpeedEgg;
+
     void Start()
     {
+        _speed -= _bonusSpeedEgg;
         Destroy(gameObject, _lifeTime);
     }
 
