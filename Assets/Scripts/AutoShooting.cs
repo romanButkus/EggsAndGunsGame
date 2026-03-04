@@ -4,13 +4,20 @@ using UnityEngine;
 public class AutoShooting : MonoBehaviour
 {
     private float _maxRadius = 7f;
-    private float _shootCoolDown = 1f;
+    private float _shootCoolDown = 0.5f;
     [SerializeField] private GameObject _egg;
     [SerializeField] private Transform _shootPoint;
     private float _maxDistance;
     float _coolDownTimer;
 
-    void Update()
+    public static float _bonusCoolDown;
+
+	void Start()
+	{
+        _shootCoolDown -= _bonusCoolDown;
+	}
+
+	void Update()
     {
         _coolDownTimer -= Time.deltaTime;
         GameObject _target = FindClosestEnemy();

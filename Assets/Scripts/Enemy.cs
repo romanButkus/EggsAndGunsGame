@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
 
     private LevelCount _levelCount;
 
-    public float _speed = 2f;
+    public float _speed = 3.5f;
     private float _minDist = 0.5f;
 
     public static int _bonusHP = 0;

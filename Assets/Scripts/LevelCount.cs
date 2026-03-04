@@ -18,13 +18,10 @@ public class LevelCount : MonoBehaviour
         _needKills = _wave * 10;
 	}
 
-	void Update()
+    void Update()
     {
         _waveCountText.text = Convert.ToString(_wave);
-    }
 
-    void FixedUpdate()
-    {
         if (_killedEnemies >= _needKills)
         {
             Time.timeScale = 0;
@@ -32,10 +29,21 @@ public class LevelCount : MonoBehaviour
         }
     }
     
+    public void ClearAllEnemies()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach (GameObject enemy in enemies)
+        {
+            Destroy(enemy);
+        }
+    }
+
     public void NextLevelChanges()
     {
         Time.timeScale = 1;
         _wave++;
+        _needKills = _wave * 10;
         _killedEnemies = 0;
 
         _player.transform.position = new Vector3(0, 0);
@@ -43,16 +51,24 @@ public class LevelCount : MonoBehaviour
         Enemy._bonusHP += 1;
         Enemy._bonusSpeed += 0.2f;
 
-        EggShot._bonusSpeedEgg += 1f;
+        EggShot._bonusSpeedEgg += 1.5f;
 
-        EnemySpawner._bonusSpawnTime += 0.35f;
+        EnemySpawner._bonusSpawnTime += 0.1f;
+
+        AutoShooting._bonusCoolDown += 0.2f;
+
+        _player.GetComponent<Player>().AddMaxHp(1);
+
+        ClearAllEnemies();
 
         _lvlCompPanel.SetActive(false);
     }
+    
+    
 
     public void NextLevel()
     {
-        if (_wave == 10)
+        if (_wave == 10 || _wave > 10)
         {
             Time.timeScale = 1;
             _wave++;

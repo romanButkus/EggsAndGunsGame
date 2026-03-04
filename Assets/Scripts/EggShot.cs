@@ -9,7 +9,7 @@ public class EggShot : MonoBehaviour
 
     void Start()
     {
-        _speed -= _bonusSpeedEgg;
+        _speed += _bonusSpeedEgg;
         Destroy(gameObject, _lifeTime);
     }
 
